@@ -37,8 +37,10 @@ A simple blog created by using GraphQL and Headless CMS. The posts can be create
   <img width="700" src=".github/blog-headless-cms-post.png" />
 </p>
 
-## How to Start
+## How to Start 
 
-- Creating our back-end in [GraphCMS](https://graphcms.com):
-  - Register an account
-  - Create a blank project
+- [GraphCMS](https://graphcms.com) step:
+  - [GraphCMS Project Setup](https://youtu.be/0fU5hvJ2GnY)
+  - [GraphCMS Content Creation](https://youtu.be/MelOjmUrc2s)
+  - [GraphCMS Preparing The Project With The CMS host and token](https://youtu.be/5jy8AgxVODc)
+
