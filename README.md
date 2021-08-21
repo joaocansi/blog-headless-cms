@@ -26,3 +26,13 @@ This project was created using this following technologies:
 ## 💻 Project
 
 A simple blog created by using GraphQL and Headless CMS. The posts can be created in the website that provides the Headless CMS (graphcms.com)
+
+## 🔖 Layout
+
+<p align="center">
+  <img width="700" src=".github/blog-headless-cms-index.png" />
+</p>
+
+<p align="center">
+  <img width="700" src=".github/blog-headless-cms-post.png" />
+</p>
