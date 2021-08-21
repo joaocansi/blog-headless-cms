@@ -13,3 +13,16 @@
 <p align="center">
   <img width="700" src=".github/blog-headless-cms-mockup.png" />  
 </p>
+
+## ✨ Techs
+
+This project was created using this following technologies:
+
+- [Next.js](https://nextjs.org)
+- [GraphCMS](https://graphcms.com)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+
+## 💻 Project
+
+A simple blog created by using GraphQL and Headless CMS. The posts can be created in the website that provides the Headless CMS (graphcms.com)
