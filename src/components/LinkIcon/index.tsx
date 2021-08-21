@@ -1,6 +1,5 @@
-import Link from 'next/link'
-import { LinkIconRef } from './style'
 import { StyledIcon } from '@styled-icons/styled-icon'
+import Linker from 'components/Linker'
 
 type LinkIconProps = {
   href: string
@@ -10,10 +9,8 @@ type LinkIconProps = {
 
 export default function LinkIcon({ href, icon: Icon, size }: LinkIconProps) {
   return (
-    <Link passHref href={href}>
-      <LinkIconRef>
-        <Icon size={size} />
-      </LinkIconRef>
-    </Link>
+    <Linker color="#000000" colorHovered="#383838" href={href}>
+      <Icon size={size} />
+    </Linker>
   )
 }

@@ -2,7 +2,7 @@ import { gql } from 'graphql-request'
 
 export const GET_POSTS = gql`
   query getPosts($first: Int) {
-    posts(first: $first) {
+    posts(first: $first, orderBy: createdAt_DESC) {
       id
       title
       slug

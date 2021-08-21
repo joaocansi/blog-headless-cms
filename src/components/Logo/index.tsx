@@ -13,20 +13,16 @@ export default function Logo() {
           size={24}
         />
         <LinkIcon
-          href="https://twitter.com/joaocansi"
+          href="https://instagram.com/joaocansi"
           icon={Instagram}
           size={24}
         />
         <LinkIcon
-          href="https://twitter.com/joaocansi"
+          href="https://linkedin.com/in/joaocansi"
           icon={Linkedin}
           size={24}
         />
-        <LinkIcon
-          href="https://twitter.com/joaocansi"
-          icon={Github}
-          size={24}
-        />
+        <LinkIcon href="https://github.com/joaocansi" icon={Github} size={24} />
       </LogoContent>
       <LogoAbout>Programming the future</LogoAbout>
     </LogoContainer>

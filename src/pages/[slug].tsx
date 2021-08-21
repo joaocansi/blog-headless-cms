@@ -14,7 +14,9 @@ export default function PostPage({ title, content, createdAt }: Post) {
 }
 
 export async function getStaticPaths() {
-  const { posts } = await client.request<GetPostsQuery>(GET_POSTS, { first: 3 })
+  const { posts } = await client.request<GetPostsQuery>(GET_POSTS, {
+    first: 3
+  })
 
   const paths = posts.map(({ slug }) => ({
     params: { slug }
@@ -38,6 +40,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       title: post.title,
       content: post.content.html,
       createdAt: post.createdAt
-    }
+    },
+    revalidate: 60
   }
 }

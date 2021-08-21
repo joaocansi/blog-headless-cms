@@ -1,7 +1,15 @@
+import LinkIcon from 'components/LinkIcon'
+import { ArrowLeft } from '@styled-icons/fa-solid'
 import { getMonthInitials } from 'helpers/DateHandler'
 import { useState } from 'react'
 import { Container } from 'styles/global'
-import { Header, Content } from './style'
+import {
+  Header,
+  Content,
+  PostTitle,
+  PostDate,
+  PostLinkContainer
+} from './style'
 
 export type Post = {
   title: string
@@ -15,16 +23,17 @@ type PostProps = {
 
 const PostTemplate = ({ inner }: PostProps) => {
   const [date] = useState<Date>(new Date(inner.createdAt))
-  console.log(inner.content)
-
   return (
     <Container>
+      <PostLinkContainer>
+        <LinkIcon href="/" size={32} icon={ArrowLeft} />
+      </PostLinkContainer>
       <Header>
-        <h1>{inner.title}</h1>
-        <p>
-          Published {getMonthInitials(date.getMonth())} {date.getDate()},
+        <PostTitle>{inner.title}</PostTitle>
+        <PostDate>
+          <span>◉</span> {getMonthInitials(date.getMonth())} {date.getDate()},
           {date.getFullYear()}
-        </p>
+        </PostDate>
       </Header>
       <Content dangerouslySetInnerHTML={{ __html: inner.content }} />
     </Container>
