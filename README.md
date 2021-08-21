@@ -37,9 +37,9 @@ A simple blog created by using GraphQL and Headless CMS. The posts can be create
   <img width="700" src=".github/blog-headless-cms-post.png" />
 </p>
 
-## How to Start 
+## 🚀 How to Start 
 
-Unfortunately, the tutorial is not finished so there's no way to start at your machine without studying the code. 
+Unfortunately, the tutorial is not finished so there's no way to start at your machine without studying the code. However, if you want to access the project to see how it is working at production, here is the link: https://blog-headless-cms.netlify.app
     
 
 
