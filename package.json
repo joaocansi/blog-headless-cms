@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "codegen": "graphql-codegen"
+    "codegen": "graphql-codegen -r dotenv/config"
   },
   "dependencies": {
     "@styled-icons/fa-brands": "^10.34.0",
     "@styled-icons/fa-regular": "^10.34.0",
     "@styled-icons/fa-solid": "^10.34.0",
+    "dotenv": "^10.0.0",
     "graphql": "^15.5.1",
     "graphql-request": "^3.5.0",
     "next": "11.1.0",
