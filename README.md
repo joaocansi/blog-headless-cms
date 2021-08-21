@@ -19,9 +19,9 @@
 This project was created using this following technologies:
 
 - [Next.js](https://nextjs.org)
+- [GraphCMS](https://graphcms.com)
 - [React](https://reactjs.org)
-- [Nodejs](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org)
 
 ## 💻 Project
 
