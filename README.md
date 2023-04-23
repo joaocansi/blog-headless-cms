@@ -1,3 +1,5 @@
+<p align="center">Unfortunately, this project is outdated since GraphCMS has change it's environment. Soon it'll be back.</p>
+
 <h1 align="center">
   <img alt="simple-raffle" title="simple-raffle" src=".github/blog-headless-cms.png" />
 </h1>
